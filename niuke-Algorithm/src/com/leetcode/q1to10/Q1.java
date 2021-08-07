@@ -63,7 +63,19 @@ public class Q1 {
 //        System.out.println(q1.twoSum2(nums,target)[0]);
 //        System.out.println(q1.twoSum2(nums,target)[1]);
 
-        System.out.println(Integer.hashCode(3));
-        System.out.println(Integer.hashCode(0));
+//        System.out.println(Integer.hashCode(3));
+//        System.out.println(Integer.hashCode(0));
+        System.out.println(10&3);
+        System.out.println(10&7);
+        int i=1,j=2,k=3;
+        Map<Integer, Integer> hashMap = new HashMap<>(3);
+        System.out.println( Integer.hashCode(i)&(k-1));
+        System.out.println( Integer.hashCode(k-i)&(k-1));
+//        for (int i = 0; i < 3; i++) {
+//            if (hashMap.containsKey(target - nums[i])) {
+//                return new int[]{i,hashMap.get(target - nums[i])};
+//            }
+//            hashMap.put(nums[i],i);
+//        }
     }
 }
