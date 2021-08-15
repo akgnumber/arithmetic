@@ -1,5 +1,8 @@
 package com.leetcode.array;
 
+/**
+ * 查找插入下表
+ */
 public class Q35 {
     /**
      * 自写
